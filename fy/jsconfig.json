@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "react" // Add this line to enable JSX support
+  },
+  "include": [
+    "src/**/*.tsx" // Include JSX files in the compilation process
+, "src/components/assignTask.jsx"  ]
+}
